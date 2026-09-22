@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+   /* padding: 0; */
+   /* margin: 0; */
+   box-sizing: border-box;
+
+     font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.cv-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.email-btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.email-btn:hover {
+  opacity: 0.85;
+}
+
+.image img{
+  width: 450px;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+
+.image:hover{
+  transition: 5s ease;
+  transform: scale(1.1);
+}
+
+.container-box{
+  padding-top: 8rem;
+  display: flex;
+  gap:4rem;
+  width: 100%;
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+}
+
+.about-text{
+  width: 750px;
+
+}
+
+.social-icons{
+  color: rgb(59, 3, 59);
+  margin-top: 1rem;
+  /* padding-left: 8rem; */
+
+}
+
+@media (min-width:393px) {
+  .container-box{
+    flex-direction: column;
+  }
+
+  .scroll-text{
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+}
+
